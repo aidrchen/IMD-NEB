@@ -1,6 +1,11 @@
+
 NEB code 1.5
 
+The Nudged-Elastic-Band method is realized in 'imd_neb.c'. It is parallized with MPI. Each image will be handled by one CPU.
+It is developed with IMD version Nov 2007 and the codes are provided here.
+The imd_neb module should compatible with the later versions, please check the IMD mainpage.
 
+Realized features:
 basic NEB
 improved tangent estimation
 free end method
